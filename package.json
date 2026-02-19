@@ -4,6 +4,6 @@
   "private": true,
   "scripts": {
     "build": "cd api && npm install && npm run build",
-    "start": "bash start.sh"
+    "start": "node api/dist/index.js"
   }
 }
